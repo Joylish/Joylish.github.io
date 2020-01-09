@@ -1,0 +1,24 @@
+title:              삐약이 연주의 기초체력 기르기
+email:              yeonzzu2@gmail.com
+description:        Every next level of your life will demand a differnt you
+author:             Joylish
+baseurl:            ""
+url:                "https://Joylish.github.io"
+
+# Social Profiles
+twitter_username:   
+github_username:    Joylish
+facebook_username:  
+linkedin_username:
+
+# Add your google-analytics ID here to activate google analytics
+google_analytics:    # out your google-analytics code
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site

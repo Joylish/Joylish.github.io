@@ -1,0 +1,44 @@
+---
+layout: page
+title: Contact Me
+description: 
+background: '/img/bg-contact.jpg'
+form: true
+---
+
+<p>저에게 하고 싶은 말이 있으시다면 작성해주세요!</p><p> 빠른 시일 내에 연락드리겠습니다 :)</p>
+<form name="sentMessage" id="contactForm" novalidate>
+  <div class="control-group">
+    <div class="form-group floating-label-form-group controls">
+      <label>이름</label>
+      <input type="text" class="form-control" placeholder="이름" id="name" required data-validation-required-message="이름을 적어주세요.">
+      <p class="help-block text-danger"></p>
+    </div>
+  </div>
+  <div class="control-group">
+    <div class="form-group floating-label-form-group controls">
+      <label>Email</label>
+      <input type="email" class="form-control" placeholder="Email" id="email" required data-validation-required-message="이메일 주소를 적어주세요.">
+      <p class="help-block text-danger"></p>
+    </div>
+  </div>
+  <div class="control-group">
+    <div class="form-group col-xs-12 floating-label-form-group controls">
+      <label>연락처</label>
+      <input type="tel" class="form-control" placeholder="연락처" id="phone" required data-validation-required-message="연락처를 입력해주세요.">
+      <p class="help-block text-danger"></p>
+    </div>
+  </div>
+  <div class="control-group">
+    <div class="form-group floating-label-form-group controls">
+      <label>메모</label>
+      <textarea rows="5" class="form-control" placeholder="메시지" id="message" required data-validation-required-message="메시지를 입력해주세요."></textarea>
+      <p class="help-block text-danger"></p>
+    </div>
+  </div>
+  <br>
+  <div id="success"></div>
+  <div class="form-group">
+    <button type="submit" class="btn btn-primary" id="sendMessageButton">보내기</button>
+  </div>
+</form>
