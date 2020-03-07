@@ -5,6 +5,7 @@ body {
   @include serif-font;
 }
 
+
 p {
   line-height: 1.5;
   margin: 30px 0;
@@ -41,6 +42,29 @@ blockquote {
   font-size: 36px;
   font-weight: 700;
   margin-top: 60px;
+}
+
+.about {
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  @include sans-serif-font;
+  .greeting{
+    font-weight: bold;
+    font-size: 36px;
+    margin-top: 60px;
+  }
+  .think {
+  margin-top: 20px;
+  font-size: 15px;
+  font-style: italic;
+  text-decoration: underline;
+  color: lightyellow;
+  }
+  p{
+    // text-align: left;
+     line-height: 200%;
+  }
 }
 
 .caption {

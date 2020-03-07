@@ -1,10 +1,10 @@
-title:              삐약이 연주의 기초체력 기르기
+title:              Dev. Play
 email:              yeonzzu2@gmail.com
-description:        Every next level of your life will demand a differnt you
+description:        Tech Blog
 author:             Joylish
 baseurl:            ""
 url:                "https://Joylish.github.io"
-
+category_list: [ java, javascript, python, database, react, flask, django, operating-system, algorithm]
 # Social Profiles
 twitter_username:   
 github_username:    Joylish

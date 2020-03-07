@@ -1,16 +1,35 @@
 ---
-layout: page
+layout: default
 title: About Me
-description: Hello, I'm Joylish.
+description: Hello, I am Play.
 background: '/img/bg-about.jpg'
 ---
-<h2 class="section-heading"> 반갑습니다!</h2>
-<br>
-<img src="/img/posts/about-details.jpg" alt="Demo Image" width=200px height=250px>
-<br>
-<p> 이 블로그에 끄적이는 이연주라고 합니다 ٩(๑❛ʚ❛๑)۶ </p>
-<p>제 머리는 휘발성 메모리라..</p>
-<blockquote class="blockquote">오늘 내가 예전에 어떤 걸 공부했지? </blockquote>
-<p> 이런 생각이 들었지만 잘 기억이 나지 않았습니다. 배운 것을 잘 정리해서 기록해보고자 깃헙 블로그를 만들어 보았습니다.
-다른 분들께도 정보를 나눌 수 있는 지식꾸러미까지 될 수 있도록 기록해보겠습니다. </p>
+{% if page.background %}
+<header class="masthead"
+    style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
+    {% else %}
+    <header class="masthead">
+        {% endif %}
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="m-5  col-md-10 mx-auto about">
+                    <div class="greeting"> 반갑습니다!</div>
+                    <!-- <br>
+                    <img src="/img/posts/about-details.jpg" alt="Demo Image" width=200px height=250px>
+                    <br> -->
+                    <!-- <div class = "about"></div> -->
+                    <div class="think">오늘 내가 예전에 어떤 걸 공부했지? </div>
+                    <p> 
+                        문득 이런 생각이 들었습니다. <br>
+                        블로그에 배운 것을 정리하여 기록해보고자 합니다. <br>
+                        계속해서 공부하는 개발자가 되도록 노력하겠습니다.
+                    </p>
+                    
+</div>
+</div>
+</div>
+</div>
+</header>
+</header>
 
