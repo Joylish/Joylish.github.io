@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-date: 2019-06-14
+date: 2020-03-07
 title: "List 함수"
 description: "append, insert, extend, remove, pop, sort, reverse, index, count"
 subject: blog
@@ -10,7 +10,6 @@ tags: [python, list함수]
 ---
 
 <h3>list함수 사용 형식</h3>
-
 $$
 [ list 이름].[list 함수] (필요인자)
 $$
@@ -18,7 +17,6 @@ $$
 
 
 <h3> append(), extend(), insert()</h3>
-
 * **append(객체)**
 
   <u>object</u>를 list 맨 뒤에 추가한다.
@@ -34,7 +32,6 @@ $$
   
 
 <h3> remove(), pop()</h3>
-
 * remove(요소)
 
   인자가 주어지지 않을때(default): **에러**
@@ -50,7 +47,6 @@ $$
 
 
 <h3>reverse(), sort()</h3>
-
 * reverse()
 
   list의 요소들을 <u>역순으로 뒤집는다.</u>
@@ -66,7 +62,6 @@ $$
 
 
 <h3>index(), count()</h3>
-
 * index(요소)
 
   list 내에서 해당 요소의 위치를 구해준다.
