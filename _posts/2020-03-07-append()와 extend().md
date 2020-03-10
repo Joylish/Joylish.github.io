@@ -2,11 +2,11 @@
 layout: post
 comments: true
 date: 2020-03-07
-title: "List 함수"
-description: "append, insert, extend, remove, pop, sort, reverse, index, count"
-subject: blog
+title: "[python] list 관련 함수"
+subtitle: "리스트 삽입, 삭제, 정렬, 기타 함수 설명"
 categories: [python]
 tags: [python, list함수]
+background: '/img/posts/python.jpg'
 ---
 
 <h3>list함수 사용 형식</h3>
